@@ -99,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601420868926</updated>
       <workItem from="1601420870006" duration="528000" />
-      <workItem from="1601935438723" duration="377000" />
+      <workItem from="1601935438723" duration="721000" />
     </task>
     <servers />
   </component>
@@ -111,30 +111,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="174" y="105" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1601421122865" />
-    <state x="500" y="217" key="FileChooserDialogImpl" timestamp="1601421396519">
+    <state x="500" y="217" key="FileChooserDialogImpl" timestamp="1601935773382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="500" y="217" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1601421396519" />
-    <state width="1397" height="235" key="GridCell.Tab.0.bottom" timestamp="1601421397855">
+    <state x="500" y="217" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1601935773382" />
+    <state width="1397" height="235" key="GridCell.Tab.0.bottom" timestamp="1601935749858">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601421397855" />
-    <state width="1397" height="235" key="GridCell.Tab.0.center" timestamp="1601421397855">
+    <state width="1397" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601935749858" />
+    <state width="1397" height="235" key="GridCell.Tab.0.center" timestamp="1601935749858">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="235" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601421397855" />
-    <state width="1397" height="235" key="GridCell.Tab.0.left" timestamp="1601421397855">
+    <state width="1397" height="235" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601935749858" />
+    <state width="1397" height="235" key="GridCell.Tab.0.left" timestamp="1601935749858">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="235" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601421397855" />
-    <state width="1397" height="235" key="GridCell.Tab.0.right" timestamp="1601421397855">
+    <state width="1397" height="235" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601935749858" />
+    <state width="1397" height="235" key="GridCell.Tab.0.right" timestamp="1601935749858">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1397" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601421397855" />
+    <state width="1397" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601935749858" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/c04_ch6_exercices_2_homer_crypto$pytest_in_test_exercice_py.coverage" NAME="pytest in test_exercice.py Coverage Results" MODIFIED="1601421314299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/c04_ch6_exercices_2_homer_crypto$exercice.coverage" NAME="exercice Coverage Results" MODIFIED="1601935749852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/c04_ch6_exercices_2_homer_crypto$exercice.coverage" NAME="exercice Coverage Results" MODIFIED="1601936152172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/c04_ch6_exercices_2_homer_crypto$pytest_for_test_exercice_TestExercice.coverage" NAME="pytest for test_exercice.TestExercice Coverage Results" MODIFIED="1601935743159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

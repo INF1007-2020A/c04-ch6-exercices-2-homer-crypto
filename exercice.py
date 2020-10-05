@@ -9,7 +9,6 @@ def list_to_dict(some_list: list) -> dict:
     dictionnaire = {}
     for element in range(len(some_list)):
         dictionnaire[some_list[element]] = element
-        print(dictionnaire)
     return dictionnaire
 
 
