@@ -9,19 +9,33 @@ def list_to_dict(some_list: list) -> dict:
     dictionnaire = {}
     for element in range(len(some_list)):
         dictionnaire[some_list[element]] = element
+#Ou for index, elem in enumerate(some_list):
+#       dictionnaire[elem] = index
+
     return dictionnaire
 
 
 def color_name_to_hex(colors: list) -> list:
     # TODO: Trouver la valeur hex de chaque couleur dans la liste et créer une liste de tupple où le premier élément est le nom de la couleur et le deuxième est la valeur hex
-
-    return []
+    my_list = []
+    for c in colors:
+        if c in cnames:
+            hexa = cnames[c]
+            my_tuple = (c, hexa)
+            my_list.append(my_tuple)
+            #ou my_list.append((c, cnames[c])) sans les ligne de hexa = ... et my_tuple = ... pour moins de ligne de code
+        else:
+            print(f"La couleurs {c} n'existe pas!")
+    return my_list
 
 
 def create_list() -> list:
     # TODO: Créer une liste des 10 000 premiers entiers positif, sauf pour les entiers de 15 à 350
-
-    return []
+    list_x = []
+    for entiers in range(10000):
+        if entiers < 15 or entiers >350:
+            list_x.append(entiers)
+    return list_x
 
 
 def compute_mse(model_dict: dict) -> dict:
