@@ -9,9 +9,10 @@ def list_to_dict(some_list: list) -> dict:
     dictionnaire = {}
     for element in range(len(some_list)):
         dictionnaire[some_list[element]] = element
-#Ou for index, elem in enumerate(some_list):
-#       dictionnaire[elem] = index
-
+    """        
+    for index, elem in enumerate(some_list):
+       dictionnaire[elem] = index
+    """
     return dictionnaire
 
 
@@ -31,17 +32,22 @@ def color_name_to_hex(colors: list) -> list:
 
 def create_list() -> list:
     # TODO: Créer une liste des 10 000 premiers entiers positif, sauf pour les entiers de 15 à 350
-    list_x = []
-    for entiers in range(10000):
-        if entiers < 15 or entiers >350:
-            list_x.append(entiers)
-    return list_x
+    """
+    list_x = [entier for entier in range(10000) if entier <15 or entier > 350]
+    """
+    return [entier for entier in range(10000) if entier <15 or entier > 350]
 
 
 def compute_mse(model_dict: dict) -> dict:
     # TODO: Calculer l'erreur quadratique moyen pour chaque modèle. Retourner un dictionnaire contenant les MSE.
+    for key, value in model_dict.items():
+        err_quad = 0
+        for elem in value:
+            err_quad += (elem[0] - elem[1])**2
 
-    return {}
+        model_dict[key] = err_quad/len(value)
+
+    return model_dict
 
 
 def main() -> None:
